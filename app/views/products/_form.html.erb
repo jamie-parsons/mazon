@@ -11,10 +11,6 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :^ %>
-    <%= form.text_field :^, id: :product_^ %>
-  </div>
 
   <div class="field">
     <%= form.label :title %>
@@ -23,7 +19,7 @@
 
   <div class="field">
     <%= form.label :description %>
-    <%= form.text_area :description, id: :product_description %>
+    <%= form.text_area :description, id: :product_description, row: 6 %>
   </div>
 
   <div class="field">
