@@ -9,7 +9,7 @@
     <%= favicon_link_tag asset_path('neonmoon.png') %> <%#= added tab icon so it would be easier to spot %>
   </head>
 
-  <body class='products' >  <%#= this is an error from page 72, original text calls for class='<%/= controller.products.controller %/>'; site errata (https://pragprog.com/titles/rails4/errata) gives this correction. Still not sure why the original syntax wouldn't work though %>
+  <body class='<%= controller.controller_name %>' >  <%#= this is an error from page 72, original text calls for class='<%/= controller.products.controller %/>'; site errata (https://pragprog.com/titles/rails4/errata) gives this correction. Still not sure why the original syntax wouldn't work though %>
     <%= yield %>
   </body>
 </html>
