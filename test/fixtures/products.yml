@@ -4,12 +4,12 @@ one:
   ^: MyString
   title: MyString
   description: MyText
-  image_url: MyString
+  image_url: lorem.jpg
   price: 9.99
 
 two:
   ^: MyString
   title: MyString
   description: MyText
-  image_url: MyString
+  image_url: lorem.jpg
   price: 9.99
